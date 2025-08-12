@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+h4{
+    color: #18437b;
+}
+.border-footer{
+  border-top: 10px solid #c12f32;
+}
+.bg-blue{
+  background-color: #18437b;
+}
+.logo img{
+    width: 108px;
+}
+.link-600{
+    font-weight: 600;
+    color: #003366;
+}
+.banner{
+  width: 100%;
+  height: 552px; 
+  background: url("../img/banner_Raimundo_Costa.jpeg");
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 110px;
+  padding-left: 10%;
+}
+
+.foto-bio{
+    width:250px; 
+    border-radius:12px; 
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+.span-color{
+    color: #c12f32;
+}
+.compromissos{
+  background-color: #144a7d;
+  padding: 10px 0;
+  color: #f8f9fa;
+}
+
+.compromissos .span-color {
+  color: #d32f2f; 
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.compromissos .card {
+  border-radius: 12px;
+  border: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background-color: #ffffff;
+  color: #222222;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 180px;
+  margin-bottom: 25px;
+}
+
+.compromissos .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: #144a7d; 
+}
+
+.compromissos .card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444444;
+}
+
+.icons-redes-sociais{
+  color: #FFF;
+  font-size: 1rem;
+}
+.icons-redes-sociais i{
+  padding: 5 px;
+}
+
+@media (max-width: 991px) {
+  .compromissos .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .compromissos .span-color {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+}
+
+  .noticias {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section-title {
+    color: #8B0000;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+  }
+  .section-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 0.4rem;
+    font-style: italic;
+  }
+  .news-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  .news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(139, 0, 0, 0.25);
+  }
+  .img-wrapper {
+    overflow: hidden;
+    height: 200px;
+  }
+  .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  .news-card:hover .img-wrapper img {
+    transform: scale(1.05);
+  }
+  .card-text {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0 1rem 1rem;
+  }
+  @media (max-width: 767px) {
+    .img-wrapper {
+      height: 180px;
+    }
+    .section-title {
+      font-size: 1.6rem;
+    }
+  }
