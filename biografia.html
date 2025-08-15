@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biografia | Raimundo Costa | Deputado Federal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold logo" href="index.html">
+            <img src="img/Raimundo_Costa_logo1.png">
+        </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link link-600" href="noticias.html">Notícias</a></li>
+          <li class="nav-item"><a class="nav-link link-600" href="biografia.html">Biografia</a></li>
+          <li class="nav-item"><a class="nav-link link-600" href="https://www.camara.leg.br/deputados/204567">Raimundo na Câmara</a></li>
+          <li class="nav-item"><a class="nav-link link-600" href="contato.html">Contato</a></li>
+        </ul/div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner-paginas">
+            <div class="col text-center">
+                <span class="span-color fw-bold">BIOGRAFIA</span>
+                <p class="section-subtitle">Conheça a história por trás do compromisso com o povo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+
+
+  <!-- Conteúdo principal -->
+  <main>
+    <section>
+      <div class="container my-5">
+        <div class="row g-2">
+            <div class="col-md-6 biografia">
+               <p>
+                Nascido às margens do Rio Una, na Bahia, Raimundo Costa cresceu em uma comunidade onde a pesca não era apenas uma profissão, mas um legado de gerações. Neto e filho de pescadores, desde cedo aprendeu o valor do trabalho duro, da honestidade e do respeito pela natureza que sustenta sua gente. Entre redes e barcos, descobriu que o rio ensina mais do que a arte da pesca — ele revela a importância da união, da escuta atenta e da força coletiva.
+               </p>
+               <p>
+                Essa vivência moldou seu caráter e o preparou para desafios muito maiores. Hoje, como deputado federal, Raimundo leva para Brasília as raízes e a voz daqueles que, assim como sua família, lutam todos os dias para conquistar um futuro melhor. Sua trajetória política é guiada pelo compromisso de ouvir, dialogar e entregar resultados concretos para a população.
+               </p>
+                <p>Como costuma afirmar:<br>
+                “A gente faz política com responsabilidade, escutando o povo e entregando resultados. Essas obras são fruto de diálogo, parceria e do nosso trabalho firme em Brasília em defesa de quem mais precisa.”</p> 
+            </div>
+            <div class="col-md-6 biografia-ingles">
+                <p>
+                    Born on the banks of the Una River in Bahia, Raimundo Costa grew up in a community where fishing was not just a profession, but a legacy passed down through generations. The grandson and son of fishermen, he learned from an early age the value of hard work, honesty, and respect for the nature that sustains his people. Among nets and boats, he discovered that the river teaches more than the art of fishing — it reveals the importance of unity, attentive listening, and collective strength.
+                </p>
+                <p>
+                    This upbringing shaped his character and prepared him for far greater challenges. Today, as a Federal Deputy, Raimundo brings to Brasília the roots and the voice of those who, like his family, fight every day to build a better future. His political journey is guided by the commitment to listen, engage in dialogue, and deliver concrete results for the population.
+                </p>
+                <p>
+                    As he often says:<br>
+                    “We make politics with responsibility, listening to the people and delivering results. These works are the result of dialogue, partnership, and our firm work in Brasília in defense of those who need it most.”
+                </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="noticias container my-5">
+      <div class="row galeria">
+        <div class="col-md-4">
+          <img src="img/foto_7.jpg" onclick="abrirLightbox(this)">
+        </div>
+        <div class="col-md-4">
+          <img src="img/foto_8.jpg" onclick="abrirLightbox(this)">
+        </div>
+        <div class="col-md-4">
+          <img src="img/foto_9.jpg" onclick="abrirLightbox(this)">
+        </div>
+      </div>
+      <div id="lightbox" class="lightbox" onclick="fecharLightbox()">
+        <span class="fechar">&times;</span>
+        <img id="lightbox-img" class="lightbox-img">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-blue border-footer text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Raimundo Costa • Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
