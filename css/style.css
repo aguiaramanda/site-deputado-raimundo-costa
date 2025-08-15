@@ -51,7 +51,7 @@ h4{
     box-shadow:0 4px 8px rgba(0,0,0,0.1);
 }
 .span-color{
-    color: #FFF;
+    color: #c12f32;
 }
 .compromissos{
   background-color: #144a7d;
@@ -95,6 +95,10 @@ h4{
   font-size: 1rem;
   line-height: 1.5;
   color: #444444;
+}
+
+.siga-redes-socais .span-color{
+  color: #FFF;
 }
 
 .icons-redes-sociais a{
@@ -237,6 +241,10 @@ a.leia-mais:hover {
   align-items: center;
   overflow: hidden;
   margin-top: 110px;
+}
+
+.banner-paginas .span-color{
+  color: #FFF;
 }
 
 .biografia{
