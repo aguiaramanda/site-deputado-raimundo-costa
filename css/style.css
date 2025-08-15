@@ -51,7 +51,7 @@ h4{
     box-shadow:0 4px 8px rgba(0,0,0,0.1);
 }
 .span-color{
-    color: #c12f32;
+    color: #FFF;
 }
 .compromissos{
   background-color: #144a7d;
@@ -60,7 +60,7 @@ h4{
 }
 
 .compromissos .span-color {
-  color: #d32f2f; 
+  color: #FFF; 
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: 0.05em;
