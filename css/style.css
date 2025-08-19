@@ -243,13 +243,13 @@ a.leia-mais:hover {
 
 .banner-paginas{
   width: 100%;
-  height: 180px; 
+  height: 1430px; 
   background-color: #18437b;
   position: relative;
   display: flex;
   align-items: center;
   overflow: hidden;
-  margin-top: 110px;
+  margin-top: 55px;
 }
 
 .banner-paginas .span-color{
