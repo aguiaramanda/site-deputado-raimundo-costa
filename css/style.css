@@ -324,3 +324,11 @@ body {
   margin-top: 20px;
 }
 
+.imagem-destaque{
+  text-align: center;
+}
+.imagem-destaque img{
+  border-radius: 14px;
+  padding-bottom: 20px;
+}
+
