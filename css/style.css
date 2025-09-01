@@ -55,6 +55,9 @@ h4{
 .span-color{
     color: #c12f32;
 }
+.span-color-white{
+    color: #fff;
+}
 .compromissos{
   background-color: #144a7d;
   padding: 10px 0;
@@ -99,12 +102,9 @@ h4{
   color: #444444;
 }
 
-.siga-redes-socais .span-color{
-  color: #FFF;
-}
 
 .icons-redes-sociais a{
-  color: #FFF;
+  color: #c12f32;
   font-size: 1rem;
 }
 .icons-redes-sociais i{
@@ -137,6 +137,13 @@ h4{
   .section-subtitle {
     font-size: 0.9rem;
     color: #FFF;
+    margin-top: 0.4rem;
+    font-style: italic;
+  }
+
+  .section-subtitle-noticias{
+    font-size: 0.9rem;
+    color: #062343;
     margin-top: 0.4rem;
     font-style: italic;
   }

@@ -22,13 +22,11 @@
       <div id="navbarNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link link-600" href="biografia.html">Biografia</a></li>
-          <li class="nav-item"><a class="nav-link link-600" href="comissoes.html">Comissões</a></li>
-          <li class="nav-item"><a class="nav-link link-600" href="projetos.html">Projetos</a></li>
-          <li class="nav-item"><a class="nav-link link-600" href="acoesmandato.html">Ações do Mandato</a></li>
           <li class="nav-item"><a class="nav-link link-600" href="pescaaquicultura.html">Pesca e Aquicultura</a></li>
           <li class="nav-item"><a class="nav-link link-600" href="noticias.html">Notícias</a></li>
           <li class="nav-item"><a class="nav-link link-600" href="contato.html">Contato</a></li>
-        </ul/div>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -45,7 +43,7 @@
 
   <!-- Conteúdo principal -->
   <main>
-    <section class="container my-5">
+   <!-- <section class="container my-5">
       <div class="row">
         <div class="col-md-3">
           <img class="foto-bio" src="img/Raimundo_Costa_BIO.png">
@@ -63,14 +61,14 @@
           <a target="_blank" href="biografia.html" class="leia-mais">Leia mais</a>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="compromissos bg-blue">
+    <section>
       <div class="container my-5">
         <div class="row mb-4">
         <div class="col text-center">
           <span class="span-color fw-bold">ÚLTIMAS NOTÍCIAS</span>
-          <p class="section-subtitle">Fique por dentro das ações do deputado Raimundo Costa</p>
+          <p class="section-subtitle-noticias">Fique por dentro das ações do deputado Raimundo Costa</p>
         </div>
       </div>
       <div class="row g-4">
@@ -117,41 +115,43 @@
       </div>
     </section>
 
-    <section class="noticias container my-5">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <span class="fw-bold span-color">GALERIA DE FOTOS E EVENTOS</span>
+    <section class="noticias bg-blue ">
+      <div class="container my-5">
+        <div class="row py-3">
+          <div class="col-md-12 text-center">
+            <span class="fw-bold span-color-white">GALERIA DE FOTOS E EVENTOS</span>
+          </div>
         </div>
-      </div>
-      <div class="row galeria">
-        <div class="col-md-4">
-          <img src="img/foto_1.jpg" onclick="abrirLightbox(this)">
+        <div class="row galeria">
+          <div class="col-md-4">
+            <img src="img/foto_1.jpg" onclick="abrirLightbox(this)">
+          </div>
+          <div class="col-md-4">
+            <img src="img/foto_2.jpg" onclick="abrirLightbox(this)">
+          </div>
+          <div class="col-md-4">
+            <img src="img/foto_3.jpg" onclick="abrirLightbox(this)">
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="img/foto_2.jpg" onclick="abrirLightbox(this)">
+        <div class="row galeria">
+          <div class="col-md-4">
+            <img src="img/foto_4.jpg" onclick="abrirLightbox(this)">
+          </div>
+          <div class="col-md-4">
+            <img src="img/foto_5.jpg" onclick="abrirLightbox(this)">
+          </div>
+          <div class="col-md-4">
+            <img src="img/foto_6.jpg" onclick="abrirLightbox(this)">
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="img/foto_3.jpg" onclick="abrirLightbox(this)">
+        <div id="lightbox" class="lightbox" onclick="fecharLightbox()">
+          <span class="fechar">&times;</span>
+          <img id="lightbox-img" class="lightbox-img">
         </div>
-      </div>
-      <div class="row galeria">
-        <div class="col-md-4">
-          <img src="img/foto_4.jpg" onclick="abrirLightbox(this)">
-        </div>
-        <div class="col-md-4">
-          <img src="img/foto_5.jpg" onclick="abrirLightbox(this)">
-        </div>
-        <div class="col-md-4">
-          <img src="img/foto_6.jpg" onclick="abrirLightbox(this)">
-        </div>
-      </div>
-      <div id="lightbox" class="lightbox" onclick="fecharLightbox()">
-        <span class="fechar">&times;</span>
-        <img id="lightbox-img" class="lightbox-img">
       </div>
     </section>
 
-    <section class="siga-redes-socais bg-blue">
+    <section class="siga-redes-socais">
       <div class="container py-3">
         <div class="row g-2">
           <div class="col-md-6">
