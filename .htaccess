@@ -1,0 +1,7 @@
+# Ativa o mecanismo de reescrita
+RewriteEngine On
+
+# Redireciona para https://www.deputadoraimundocosta.com.br
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.deputadoraimundocosta.com.br/$1 [L,R=301]
